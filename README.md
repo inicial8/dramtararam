@@ -1,6 +1,7 @@
 # test
 
 > An electron-nuxt project
+> node version 16.20.2 only
 
 #### Build Setup
 
