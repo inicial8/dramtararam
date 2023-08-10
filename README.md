@@ -1,7 +1,7 @@
-# test
+# predock
 
-> An electron-nuxt project
-##### node version 16.20.2 only
+> Simple client for docker on *nix systems
+> node version 16.20.2 only
 
 #### Build Setup
 
@@ -10,16 +10,15 @@
 yarn install
 
 # serve app with hot reload
-yarn dev
+yarn run dev
 
 # build electron application for production
-yarn build
+yarn run build
+
 
 # lint all JS/Vue component files in `src/`
-yarn lint
+yarn run lint
 
 ```
 
 ---
-
-This project was generated with [electron-nuxt](https://github.com/michalzaq12/electron-nuxt) v1.8.1 using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://github.com/michalzaq12/electron-nuxt/blob/master/README.md).

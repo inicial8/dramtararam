@@ -3,7 +3,7 @@ const ICONS_DIR = 'build/icons/'
 const windowsOS = {
   win: {
     icon: ICONS_DIR + 'win-icon.ico',
-    publisherName: 'michal',
+    publisherName: 'eighth',
     target: 'nsis'
   },
 
@@ -42,8 +42,9 @@ const macOS = {
 }
 
 module.exports = {
-  productName: 'test',
+  productName: 'predock',
   appId: 'com.example.app',
+  // eslint-disable-next-line no-template-curly-in-string
   artifactName: 'setup-${version}.${ext}',
   directories: {
     output: 'build'

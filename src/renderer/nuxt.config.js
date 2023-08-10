@@ -8,7 +8,7 @@ module.exports = {
   ssr: false,
   target: 'static',
   head: {
-    title: 'test',
+    title: 'predock',
     meta: [{ charset: 'utf-8' }]
   },
   loading: false,

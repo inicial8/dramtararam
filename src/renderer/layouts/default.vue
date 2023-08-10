@@ -1,16 +1,17 @@
 <template>
-  <div>
+  <v-app id="inspire">
     <app-header />
-    <nuxt />
-  </div>
+    <v-main>
+      <nuxt />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
 import appHeader from '@/components/header'
-
 export default {
-  name: 'DefaultLayout',
-  components: { appHeader }
+  components: { appHeader },
+  data: () => ({ drawer: null })
 }
 </script>
 
